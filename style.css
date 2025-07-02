@@ -1,0 +1,209 @@
+*{margin: 0;padding: 0;box-sizing: border-box; }
+
+.container{
+    width: 1200px;
+    /* height:1900px; */
+    /* background-color: aqua; */
+    margin: 50px auto;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.row{
+    width:90%;
+    display: flex ;
+    justify-content: space-between;
+    margin: 0px 50px;
+}
+body{
+    color:white;
+}
+.col-4{
+    width:33.33%;
+}
+.col-8{
+    width: 66.66%;
+}
+.cart_1{
+    margin: 50px 0;
+    margin-right : 5px;
+    width:100%;
+    height : 1250px;
+    background-color: rgb(50, 97, 142);   
+    border: 1px solid black;
+}
+.header_1{
+    margin-top: 10px;
+    /* color: black; */
+    font-size: 30px;
+    p{
+        margin-top: 10px;
+        margin-left: 30px;
+        font-size: 20px;
+    }
+}
+.header_img{
+    margin: 50px 70px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    }
+}
+.contact{
+    margin: 10px 0 0 70px;
+    font-size: 20px;
+    hr{
+        width: 150px;
+        font-size: 3px;
+        color : rgb(255, 255, 255);
+        background-color: white;
+    }
+    p{
+        margin-top: 8px;
+        font-size: 18px;
+    }
+}
+.Education{
+    margin: 20px 0 0px 70px;
+    h3{ 
+        margin-top: 50px;
+        font-size: 20px;
+    }
+    hr{
+        width: 150px;
+        font-size: 3px;
+        color : rgb(255, 255, 255);
+        background-color: white;
+        
+    }
+    p{
+        margin-top: 8px;
+        font-size: 18px;
+    }
+}
+.Lenguage{
+    margin: 20px 0 0px 70px;
+    h3{
+        margin-top: 50px;
+        font-size: 20px;}
+    hr{
+        width: 150px;
+        font-size: 3px;
+        color : rgb(255, 255, 255);
+        background-color: white;
+    }
+    p{
+        margin-top: 8px;
+        font-size: 18px;
+    }
+}
+.Soft_Skill{
+    margin: 20px 0 0px 70px;
+    h3{ 
+        font-size: 20px; 
+        margin-top: 50px;
+    }
+    hr{
+        width: 150px;
+        font-size: 3px;
+        color : rgb(255, 255, 255);
+        background-color: white;
+    }
+    p{
+        margin-top: 8px;
+        font-size: 18px;
+    }
+}
+
+.cart_2{
+    color: black;
+    margin: 50px 0;
+    /* margin-left : 3px; */
+    width:100%;
+    height : 1250px;
+    /* background-color: rgb(61, 57, 57);    */
+    /* border: 3px solid black; */
+    border: 1px solid black;
+
+}
+.name{
+    margin-top: 100px;
+    margin-left :70px;
+    font-size: 70px;
+    color: gray;
+}
+.subject{
+    margin-top: 10px;
+    margin-left :70px;
+    font-size: 20px;
+    color: gray;
+}
+
+.profile{
+    margin-top: 70px;
+    margin-left: 20px;
+    h3{font-size: 40px; color: rgb(16, 55, 114)}
+    hr{
+        width: 600px;
+        font-size: 3px;
+        color : rgb(255, 255, 255);
+        background-color: white;
+    }
+    p{
+        width: 600px;
+        font-size: large;
+    }
+}
+.Skill_Experience{
+    margin-top: 50px;
+    margin-left: 20px;
+    h3{font-size: 40px; color: rgb(16, 55, 114)}
+    hr{
+        width: 600px;
+        font-size: 3px;
+        color : rgb(255, 255, 255);
+        background-color: white;
+    }
+    p{
+        margin-top: 5px;
+        font-size: 20px;
+    }
+}
+.project{
+    margin-top: 30px;
+    margin-left: 20px;
+    h3{font-size: 40px; color: rgb(16, 55, 114)}
+    hr{
+        width: 600px;
+        font-size: 3px;
+        color : rgb(255, 255, 255);
+        background-color: white;
+    }
+    p{
+        margin-top: 5px;
+        font-size: 20px;
+    }
+}
+
+.Reference{
+    margin-top: 30px;
+    margin-left: 20px;
+    h3{font-size: 40px; color: rgb(16, 55, 114)}
+    hr{
+        width: 600px;
+        font-size: 3px;
+        color : rgb(255, 255, 255);
+        background-color: white;
+    }
+    p{
+        margin-top: 5px;
+        font-size: 20px;
+    }
+}
